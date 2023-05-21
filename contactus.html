@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Contact</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Roboto Slab', serif;
+        }
+        tr{
+            color:darkblue;
+        }
+        label{
+            color:darkblue;
+            
+        }
+        input{
+            height:20px;
+            border-radius: 10px;
+            border:1px solid burlywood;
+            
+        }
+        input[type="fullname"]{
+            text-transform: capitalize;
+        }
+        input[type="email"]{
+            color:chocolate;
+        }
+        
+
+        
+        
+        #submit:hover{
+                background-color: burlywood;
+            }
+        button[type="reset"]:hover{
+                color: brown;
+            }
+            button[type="clear"]:hover{
+                color:brown;
+            }
+    </style>
+
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <from>
+    <table>
+         <tr>
+        <td><label for="Full Name"></label><strong>Full Name</strong></td>
+      <td><input type="text" id="fullname" autofocus required placeholder="max character lengt"></td>
+         </tr>
+
+         <tr>
+            <td><label for="Mobile no"><strong>Mobile No:</strong></label></td>
+            <td><input type="number" id="contact No" required></td>
+            </tr>
+            <tr>
+                <td><label><strong>Email:</strong></label></td>
+                <td><input type="email" required autofocus placeholder="Ex.yogu4444&gmail.com"></td>
+            </tr>
+            <tr>
+                <td><strong>Enqiry:</strong></td>
+                <td><textarea rows="7" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td><button type="submit"><strong>Sumbit</strong></button></td>
+                <td><button type="reset"><strong>Clear</strong></button></td>
+            </tr>
+</table>
+</from>
+</html>
+</body>
